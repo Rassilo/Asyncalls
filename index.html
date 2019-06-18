@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Async Calls</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">AsynCalls</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    </nav>
+
+    <div style="text-align: center" class="container">
+        <h2>Async Calls</h2>
+        <h4>Consume Async api using ajax with diffrent approach</h4>
+        <div style="margin: 15px">
+                <img width="400px" src="lel.png" alt="">
+        </div>
+        <div style="margin: 15px">
+            <button class="btn btn-info" id="fetchName">Fetch Name</button>
+        </div>
+        <table  class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Await</th>
+                    <th>Promise</th>
+                    <th>CallBack</th>
+                    <th>RXJS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><p id="fetch1">...</p></td>
+                    <td><p id="fetch2">...</p></td>
+                    <td><p id="fetch3">...</p></td>
+                    <td><p id="fetch4">...</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <footer class="page-footer font-small teal pt-4">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 by :
+          <a href="https://media.giphy.com/media/wAVA7WdV2jita/giphy.gif"> Rassil.br</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/rxjs@5.4.2/bundles/Rx.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
