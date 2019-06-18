@@ -1,4 +1,4 @@
-<h1><a id="AsynCalls_0" href="https://rassilo.github.io">AsynCalls</a></h1>
+<h1><a id="AsynCalls_0" href="https://rassilo.github.io/asyncalls">AsynCalls</a></h1>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width=100 alt=""></p>
 <p>AsynCalls is a simple project aiming to show the different approaches of handling Asynchronous functions.</p>
 <ul>
